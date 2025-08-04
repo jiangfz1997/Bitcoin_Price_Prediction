@@ -26,9 +26,8 @@ logs/
 .env
 *.sqlite3
 
-# Large raw data (if you don't want to push)
-data/
-!data/README.md   # optional: keep a README explaining the dataset
+data/*
+!data/README.md
 
 # Ignore saved figures or intermediate outputs
 outputs/
