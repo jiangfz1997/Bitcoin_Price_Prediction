@@ -1,0 +1,35 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Model files / weights
+*.h5
+*.pth
+*.pt
+*.ckpt
+
+# Logs and outputs
+logs/
+*.log
+
+# Environment / system files
+.env
+*.sqlite3
+
+
+# Ignore saved figures or intermediate outputs
+outputs/
+!outputs/.gitkeep
+
+# Notebook execution cache
+*.nbconvert.ipynb
