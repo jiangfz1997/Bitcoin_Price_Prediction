@@ -1,0 +1,9 @@
+Timestamp,Model Name,RMSE,MAE
+2025-08-05 16:22:00,GRU_1layer_lossmae,757.81,519.29
+2025-08-05 17:55:08,GRU_1layer_lossmae_batch256,412.9678375708959,319.6933670034181
+2025-08-05 19:52:21,GRU_1layer_lossmae_batch128,342.39928868255834,305.1231682011444
+2025-08-05 22:57:30,GRU_1layer_lossmae_batch128_BiascorrectedandResidual,58.054482701457175,35.50347782365074
+2025-08-06 17:32:34,GRU_1layer_lossmae_batch128_BiascorrectedandResidual_splitfirst,58.04570738589808,35.48615243850661
+2025-08-06 19:36:27,GRU_1layer_lossmae_batch128_BiascorrectedandResidual_splitfirst_L2,58.04985550083556,35.46847818291388
+2025-08-06 21:42:59,GRU_1layer_lossmae_batch128_BiascorrectedandResidual_splitfirst_L2v2,58.04985634406055,35.46851495749319
+2025-08-07 11:21:59,GRU_1layer_lossmae_batch128_BiascorrectedandResidual_splitfirst_L2v2_step,58.372807802874696,35.7711245484686
