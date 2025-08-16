@@ -1,0 +1,10 @@
+{
+    "window_size": 30,
+    "loss": "mae",
+    "gru_layers": 1,
+    "Dense": 1,
+    "units_per_layer": 64,
+    "dropout": 0.2,
+    "batch_size": 256,
+    "epochs": 50
+}
