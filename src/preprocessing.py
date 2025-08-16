@@ -4,7 +4,7 @@ from datetime import datetime
 # Function to load and preprocess the Bitstamp data by reading the CSV file,
 # converting the 'Timestamp' column to datetime, and setting it as the index.
 def dataload():
-    bitstamp = pd.read_csv("../data/btcusd_1-min_data.csv")
+    bitstamp = pd.read_csv("../../data/btcusd_1-min_data.csv")
     bitstamp['Timestamp'] = pd.to_datetime(bitstamp['Timestamp'], unit='s')
     bitstamp.set_index('Timestamp', inplace=True)
     return bitstamp
