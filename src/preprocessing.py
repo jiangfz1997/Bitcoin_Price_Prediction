@@ -1,3 +1,9 @@
+# =============================================================
+# DEPRECATED: preprocessing.py
+# This script is no longer maintained. 
+# All functionality has been migrated to notebooks to support execution in the Colab environment.
+# =============================================================
+
 import pandas as pd
 from datetime import datetime
 

@@ -13,7 +13,7 @@ __pycache__/
 .DS_Store
 
 # Model files / weights
-*.h5
+# *.h5
 *.pth
 *.pt
 *.ckpt
